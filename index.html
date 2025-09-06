@@ -252,7 +252,7 @@
         async function fetchAQIData(lat,lon)
         {
             //getting another api for air quality index from air pollution in open weather map
-            let fetchAQIData=await fetch(`http://api.openweathermap.org/data/2.5/air_pollution?lat=${lat}&lon=${lon}&appid=6c3ea236bcef668a812f79b0a0709ab1`)
+            let fetchAQIData=await fetch(`https://api.openweathermap.org/data/2.5/air_pollution?lat=${lat}&lon=${lon}&appid=6c3ea236bcef668a812f79b0a0709ab1`)
             let formattedData=await fetchAQIData.json(); //the received data converted into json format
             console.log('AQI data:',formattedData);
             let list=formattedData.list[0].components;
@@ -421,3 +421,4 @@
 </body> 
 
 </html>
+
