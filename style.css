@@ -1,0 +1,131 @@
+body
+{
+    background:url('./image.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    font-family: "comfortaa",sans-serif;
+    color: white;
+    
+}
+
+.searchBar
+{
+    height:10vh;
+    background:black;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+.inputfield{
+    outline: none;
+}
+.searchBarparentDiv
+{
+    width: 50%;
+    height:fit-content;
+    position: relative;
+}
+.inputfield
+{
+    width: 100%;
+    border-radius: 25px;
+    padding: 10px;
+    outline: none;
+}
+.searchIcon
+{
+    position: absolute;
+    right:2%;
+    height:38px;
+    top:5px;
+}
+.searchIcon:hover
+{
+    cursor: pointer;
+}
+.mainContentParentDiv
+{
+    height: 90vh;
+    flex-direction: row;
+}
+.leftDiv
+{
+    width: 30%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.leftChild
+{
+    background:rgba(23, 20, 20, 0.4);
+    width: 85%;
+    height: 40vh;
+    margin: auto;
+    border-radius: 15px;
+    backdrop-filter: blur(15px); /* it is used to get the backdrop blur*/
+}
+.currentTempDiv
+{
+    font-size: larger;
+}
+#cityName
+{
+    font-size: xx-large;
+}
+#cityTemp
+{
+    font-size: x-large;
+}
+.rightDiv
+{
+    width: 70%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    gap:20px;
+}
+
+#Coming5Daystitle
+{
+    font-size:large;
+}
+.rightrow
+{
+    height: 27vh;
+    width: 100%;
+}
+.extraMetric
+{
+    background:rgba(23, 20, 20, 0.4);
+    padding: 5% 2%;
+    width: fit-content;
+    border-radius: 15px;
+    backdrop-filter: blur(15px);
+    align-items: center;
+}
+.rowTwoDiv
+{
+    background:rgba(23, 20, 20, 0.4);
+    backdrop-filter:blur(15px);
+    width: 45%;
+    height: 85%;
+    border-radius: 15px;
+    font-size: medium;
+}
+.todayTemp
+{
+     background:rgba(23, 20, 20, 0.4);
+     width: fit-content;
+     padding: 15px;
+     border-radius: 15px;
+     backdrop-filter:blur(15px) ;
+     text-align: center;
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     justify-content: center;
+     gap: 10px;
+}
+
